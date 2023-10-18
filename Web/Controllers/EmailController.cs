@@ -1,6 +1,17 @@
+using Microsoft.AspNetCore.Mvc;
+using Web.Services;
+
 namespace Web.Controllers;
 
-public class EmailController
+
+[Route("[controller]")]
+[ApiController]
+public class EmailController : ControllerBase
 {
-    
+    private readonly EmailService _emailService;
+
+    public EmailController(EmailService emailService)
+    {
+        _emailService = emailService;
+    }
 }
