@@ -1,8 +1,11 @@
 using Web.Services;
+using Microsoft.Extensions.Configuration;
 
 var policyName = "AllowOrigin";
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Configuration.AddJsonFile("appsettings.Secrets.json", optional: true);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
