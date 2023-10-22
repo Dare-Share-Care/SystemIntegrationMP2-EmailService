@@ -1,14 +1,9 @@
-## Step 1: Create a Configuration File
+## Step 1: Create environment variables
 
-Create a new file in the ***root*** of your project named ***appsettings.Secrets.json***. This file will contain your sensitive information.
-```json
-{
-  "EmailSettings": {
-    "FromEmail": "your_gmail_address@gmail.com",
-    "FromName": "Your Name",
-    "Password": "your_gmail_password"
-  }
-}
+First, set your environment variables (this will differ depending on your OS, but here's how you'd do it on Windows):
+```bash
+setx EMAIL_SERVICE_USER "youremail@outlook.com"
+setx EMAIL_SERVICE_PASS "yourpassword"
 ```
 
 
