@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{A5345AC8-8DAA-4347-AC17-1FD22433F524}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailService", "EmailService\EmailService.csproj", "{1AA68929-548F-4A5E-9174-31EAB86997F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A5345AC8-8DAA-4347-AC17-1FD22433F524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A5345AC8-8DAA-4347-AC17-1FD22433F524}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A5345AC8-8DAA-4347-AC17-1FD22433F524}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A5345AC8-8DAA-4347-AC17-1FD22433F524}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AA68929-548F-4A5E-9174-31EAB86997F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AA68929-548F-4A5E-9174-31EAB86997F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AA68929-548F-4A5E-9174-31EAB86997F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AA68929-548F-4A5E-9174-31EAB86997F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
